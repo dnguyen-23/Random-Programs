@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="nodelet" type="nodelet" name="joystick_controller" args="load joystick_to_kobuki_controller/MotionControllerNodelet mobile_base_nodelet_manager">
+    </node>
+</launch>

@@ -1,0 +1,7 @@
+<library path = "lib/lib">
+    <class name="joystick_to_kobuki_controller/MotionControllerNodelet" type="kobuki::MotionControllerNodelet" base_class_type="nodelet::Nodelet">
+        <description>
+            Nodelet for controlling the motors
+        </description>
+    </class>
+</library>
